@@ -27,7 +27,7 @@ class _ProductsPageState extends State<ProductsPage> {
             mainAxisSize: MainAxisSize.max,
             children: [
           PageHeader(
-            text: 'Products',
+            text: 'Units',
           ),
           Container(
             margin: EdgeInsets.all(10),

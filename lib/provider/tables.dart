@@ -46,7 +46,7 @@ class TablesProvider with ChangeNotifier {
         sortable: true,
         textAlign: TextAlign.left),
     DatatableHeader(
-        text: "User Id",
+        text: "Batch Id",
         value: "userId",
         show: true,
         flex: 2,
@@ -262,9 +262,10 @@ class TablesProvider with ChangeNotifier {
         "id": order.id,
         "userId": order.userId,
         "description": order.description,
+        "createdAt":"5/7/22",
         // "createdAt": DateFormat.yMMMd()
         //     .format(DateTime.fromMillisecondsSinceEpoch(order.createdAt)),
-        "total": "\$${order.total}",
+        "total": "${order.total} units",
       });
     }
     return temps;

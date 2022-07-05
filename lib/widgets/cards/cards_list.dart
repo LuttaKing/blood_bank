@@ -34,7 +34,7 @@ class CardsList extends StatelessWidget {
               icon: Icons.shopping_basket_outlined,
               title: "Average Units",
               subtitle: "Average units per batch",
-              value: " null ",
+              value: " ",
               color1: Colors.lightBlueAccent,
               color2: Colors.blue,
             ),

@@ -38,16 +38,16 @@ class SideMenuTabletDesktop extends StatelessWidget {
                 locator<NavigationService>().navigateTo(HomeRoute);
               },
             ),
-            SideMenuItemDesktop(
-              icon: Icons.people,
-              text: 'Users',
-              active: appProvider.currentPage == DisplayedPage.USERS,
-              onTap: () {
-                appProvider.changeCurrentPage(DisplayedPage.USERS);
+            // SideMenuItemDesktop(
+            //   icon: Icons.people,
+            //   text: 'Users',
+            //   active: appProvider.currentPage == DisplayedPage.USERS,
+            //   onTap: () {
+            //     appProvider.changeCurrentPage(DisplayedPage.USERS);
 
-                locator<NavigationService>().navigateTo(UsersRoute);
-              },
-            ),
+            //     locator<NavigationService>().navigateTo(UsersRoute);
+            //   },
+            // ),
             SideMenuItemDesktop(
               icon: Icons.shopping_cart,
               text: 'Batches',
@@ -59,7 +59,7 @@ class SideMenuTabletDesktop extends StatelessWidget {
             ),
             SideMenuItemDesktop(
               icon: Icons.shopping_basket_outlined,
-              text: 'Products',
+              text: 'Units',
               active: appProvider.currentPage == DisplayedPage.PRODUCTS,
               onTap: () {
                 appProvider.changeCurrentPage(DisplayedPage.PRODUCTS);
