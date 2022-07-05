@@ -72,7 +72,7 @@ class TablesProvider with ChangeNotifier {
         textAlign: TextAlign.left),
   ];
 
-  List<DatatableHeader> productsTableHeader = [
+  List<DatatableHeader> productsTableHeader  = [
     DatatableHeader(
         text: "ID",
         value: "id",
