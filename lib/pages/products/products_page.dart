@@ -129,10 +129,11 @@ class _ProductsPageState extends State<ProductsPage> {
           // ),
 
           Padding(
-            padding: const EdgeInsets.all(30.0),
+            padding: const EdgeInsets.all(150.0),
             child: Column(
                     children: [
-                      SizedBox(height: 20,),
+                      Text('ABO blood typing classifies blood into A, B, AB, or O groups according to the presence of major antigens A and B on RBC surfaces, and according to serum antibodies anti-A and anti-BRemember — if the recipient’s blood type is A, he may receive type A or O blood. If his blood type is B, he may receive type B or O blood. If his blood type is AB, he may receive type A, B, AB, or O blood. If his blood type is O, he may receive only type O blood.'),
+                      SizedBox(height: 10,),
                       CustomText(text: 'Blood Groups', size: 30,),
                       TopBuyerWidget(),
                       TopBuyerWidget2(),
@@ -142,6 +143,11 @@ class _ProductsPageState extends State<ProductsPage> {
                       TopBuyerWidget6(),
                       TopBuyerWidget7(),
                       TopBuyerWidget8(),
+                      SizedBox(height: 20,),
+                      Text('CROSS MATCHING'),
+                      SizedBox(height: 4,),
+
+                      Text('Crossmatching establishes whether donor and recipient blood are compatible and serves as the final check for such compatibility. Lack of agglutination indicates compatibility between donor and recipient blood, which means the blood transfusion can proceed.Blood is always crossmatched before transfusion, except in extreme emergencies. A complete crossmatch may take 45 minutes to 2 hours, so an incomplete (10-minute) crossmatch may be acceptable in an emergency. An emergency transfusion must proceed with special awareness of the complications that may result from incomplete typing and crossmatching. After crossmatching, compatible units of blood are labeled and a compatibility record is completed.')
                      
                     ],
                   ),

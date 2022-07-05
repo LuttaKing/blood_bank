@@ -59,7 +59,7 @@ class SideMenuTabletDesktop extends StatelessWidget {
             ),
             SideMenuItemDesktop(
               icon: Icons.shopping_basket_outlined,
-              text: 'Units',
+              text: 'Blood Info',
               active: appProvider.currentPage == DisplayedPage.PRODUCTS,
               onTap: () {
                 appProvider.changeCurrentPage(DisplayedPage.PRODUCTS);
